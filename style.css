@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+    background-color: darkgray;
+
+}
+
+.wrapper{
+    background-color: white;
+}
+.navigation {
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    padding: 25px 0px 0px;
+}
+
+.navigation ul{
+    text-align: right;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    
+}
+
+.navigation a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.navigation a.current{
+    background-color: rgb(177, 144, 100);
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.banner{
+    margin-bottom: 30px
+}
+.banner img{
+    width: 100%;
+}
+
+.bike{
+    width: 50%;
+}
+
+
+.product{
+    align-content: center;
+    text-align: center;
+    padding: 5px 5px 20px;
+}
+
+.product p{
+    font-weight: bold;
+}
+
+.product h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.product button{
+    padding: 10px;
+    font-weight: 300;
+    color: grey;
+    border: 2px solid grey;
+    margin: 15px;
+    background-color: white;
+}
+
+footer img{
+    width: 100%;
+}
